@@ -103,12 +103,12 @@ echo $herbie->model;
 
 #The if Else Statement
 <?php
-$t = date("H");
+$i = age("H");
 
-if ($t < "10") {
-    echo "Have a good morning!";
-} elseif ($t < "20") {
-    echo "Have a good day!";
+if ($i < "20") {
+    echo "I am an adult!";
+} elseif ($i < "40") {
+    echo "I am still an adult!";
 } else {
     echo "Have a good night!";
 }
